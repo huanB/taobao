@@ -1,0 +1,115 @@
+body,div,p,ol,ul,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,table,tr,td,th,form,hr,input,textarea{
+		margin:0;
+		padding:0;
+	}
+	
+	
+	a{
+		text-decoration:none;
+	}
+	ul,ol{
+		list-style:none;
+	}
+/*走*/
+		.shiliu{
+		width:1190px;
+		height:248px;
+		background:white;
+		margin:0 auto;
+		border-top:1px solid #dddddd;
+	}
+	.shiliu .shiliu1{
+		width:100%;
+		height:70px;
+		/*background:red;*/
+		border-bottom:1px solid #dddddd;
+		box-sizing: border-box;
+		padding-top: 8px;
+	}
+	.shiliu1 .shiliu1_1{
+		width:100%;
+		height:27px;
+		background:white;
+		clear: both;
+	}
+	.shiliu1_1 a{
+		display: block;
+		font-size: 12px;
+		color:#999999;
+		float:left;
+		line-height: 27px;
+		padding:0 10px;
+		background:url(../img/t51.png) no-repeat right center;
+	}
+	.shiliu1_1 a:last-child{
+		background:none;
+	}
+	.shiliu1_1 a:hover{
+		color:red;
+	}
+	.shiliu .shiliu2{
+		width:100%;
+		height:178px;
+		/*background:blue;*/
+	}
+	.shiliu2 .shiliu2_1{
+		width:100%;
+		height:26px;
+		background:white;
+	}
+	.shiliu2_1 .shiliu2_1_1{
+		height:26px;
+		background:url(../img/t51.png) no-repeat right center;
+		padding-left: 2px;
+		float:left;
+	}
+	.shiliu2_1_1 a{
+		font-size: 12px;
+		color:#999999;
+		float:left;
+		padding-right:10px;
+		line-height: 26px;
+	}
+	.shiliu2_1 .spans{
+		display: inline-block;
+		font-size: 12px;
+		line-height: 26px;
+		color:#999999;
+		margin-left: 38px;
+		float:left;
+	}
+	.shiliu2_2 a{
+		font-size:12px;
+		color:#999999;
+		line-height: 26px;
+		float:left;
+		padding: 0 10px;
+		background:url(../img/t51.png) no-repeat right center;
+
+	}
+	.shiliu2_2 a:nth-child(1){
+		padding-left:2px;
+	}
+	.shiliu2_2 span{
+		display: inline-block;
+		font-size:12px;
+		color:#999999;
+		float:left;
+	`	padding: 0 10px;
+		line-height: 26px;
+		background:url(../img/t51.png) no-repeat right center;
+	}
+	.shiliu2_2 span:last-child{
+		background:none;
+	}
+	.shiliu2_3 a:last-child{
+		background:none;
+	}
+	.shiliu2 .shiliu2_4{
+		width:100%;
+		height:64px;
+		
+	}
+	.shiliu2_4 img{
+		margin-top:6px;
+	}
