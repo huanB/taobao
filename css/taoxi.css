@@ -2,6 +2,15 @@
 	a:hover{
 		color:red;
 	}
+/*反馈页面*/
+	.fankui{
+		width:600px ;
+		height: 520px;
+		background: #666666;
+		position: fixed;
+		top: 74px;
+		left: 500px;
+	}
 /*头部横条*/
 	#heng{
 		width: 100%;

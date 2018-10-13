@@ -9,8 +9,9 @@
 	.er .er1{
 		width: 378px;
 		height: 100%;
-		background: blue;
+		background: white;
 		float: left;
+		
 	}
 	.er1 a{
 		display: block;
@@ -20,7 +21,8 @@
 		width: 174px;
 		height: 56px;
 		float: left;
-		
+		margin-top: 20px;
+		margin-left: 102px;
 	}
 	.er .er2{
 		width:952px;
