@@ -1,20 +1,4 @@
-body,div,p,ol,ul,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,table,tr,td,th,form,hr,input,textarea{
-		margin:0;
-		padding:0;
-	}
-	body,html{
-		height:100%;
-	}
-	body{
-		background:#f4f4f4;
-		font-family:"微软雅黑"，Arial;
-	}
-	a{
-		text-decoration:none;
-	}
-	ul,ol{
-		list-style:none;
-	}
+
 /*header*/
 	.header1{
 		width:100%;

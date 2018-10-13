@@ -1,0 +1,31 @@
+
+/*第二部分*/
+	.er{
+		width:1350px;
+		height:100px;
+		background: red;
+		margin: 0 auto;
+	}
+	.er .er1{
+		width: 378px;
+		height: 100%;
+		background: blue;
+		float: left;
+	}
+	.er1 a{
+		display: block;
+	}
+	.er1 a img{
+		display: inline-block;
+		width: 174px;
+		height: 56px;
+		float: left;
+		
+	}
+	.er .er2{
+		width:952px;
+		height: 100%;
+		background: gray;
+		float: right;
+		
+	}
