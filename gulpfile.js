@@ -16,6 +16,11 @@ gulp.task("copyImg",function(){
 gulp.task("copyFoot",function(){
 	gulp.src("foot/**/*").pipe(gulp.dest("E:\\phpStudy\\WWW\\gitgulp\\foot"))
 });
+
+//gulp.task("copySass",function(){
+//	gulp.src("sass里面的文件").pipe(sass()).pipe(gulp.dest("路径"))
+//});
+
 //执行上面所有任务
 gulp.task("build",["copyHtml","copyCss","copyJs","copyImg","copyFoot"],function(){
 	console.log("ok");

@@ -31,3 +31,105 @@
 		float: right;
 		
 	}
+	.er .inputs{
+		float: left;
+		width:646px ;
+		height: 38px;
+		border-bottom: 3px solid #f82800;
+		border-top: 3px solid #f82800;
+		border-left: 2px solid #f82800;
+		border-right: 2px solid #f82800;
+	}
+	.inputs .input1{
+		width: 83px;
+		height: 38px;
+		background: #fafafa;
+		float:left ;
+		position: relative;
+	}
+	.input1 .heart{
+		display: block;
+		width: 82px;
+		height: 38px;
+		text-align: center;
+	}
+	.heart img{
+		margin-left: 10px;
+		margin-bottom: 5px;
+	}
+	.heart span{
+		display: inline-block;
+		line-height: 38px;
+		color: #000;
+	}
+	.input1 .stop{
+		position: absolute;
+		left: -2px;
+		display: block;
+		width: 83px;
+		height: 38px;
+		background: white;
+		line-height: 38px;
+		color: #000;
+		/*text-align: center;*/
+		border: 3px solid #f82800;
+		border-top: none;
+		display: none;
+		
+	}
+	.stop span{
+		margin-left: 13px;
+	}
+	.input1:hover .stop{
+		display: block;
+	}
+	.inputs .input2{
+		width: 465px;
+		height: 38px;
+		/*display: inline-block;*/
+		float:left ;
+		border: none;
+	}
+	.inputs .input3{
+		width: 98px;
+		height: 38px;
+		background: #f82800;
+		float:left ;
+		line-height: 38px;
+		font-size: 16px;
+		color: white;
+		text-align: center;
+	}
+	.er .sous{
+		float: left;
+		width:98px ;
+		height: 42px;
+		background: #fff0e7;
+		line-height: 42px;
+		border: 1px solid #ffb08b;
+		color: #F82800;
+		text-align: center;
+		margin-left: 3px;
+	}
+/*第三部分*/
+	.san{
+		width: 1350px;
+		height: 44px;
+		background: blue;
+		margin: 0 auto;
+	}
+	.san .sanzuo{
+		width: 300px;
+		height: 44px;
+		background:yellow;
+	}
+	.sanzuo a{
+		display: block;
+		width: 100px;
+		height: 44px;
+		background: #e83564;
+		line-height:44px ;
+		text-align: center;
+		color: white;
+		margin-left:106px;
+	}
